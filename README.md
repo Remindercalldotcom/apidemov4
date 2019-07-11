@@ -1,4 +1,4 @@
-# apidemov4
+# API Demo version 4.0
 This is an updated version of the API Demo that uses our XML API to send reminders and get the status back for SMS and calls. Using the API is fairly easy. You can use the Webhook as a means of instant updates as an alternative to requesting message statuses one at a time.
 
 The demo page lets you:
