@@ -17,9 +17,7 @@ The Numbers Management page lets you search for phone numbers available by area 
 
 A working example page of this is here: http://www.snapnotify.net/example/numbermanagement.php
 
-More information along with the Request and Response details are here: https://secure.remindercall.com/developers/api/xml/
-
-Request sample code and more information by calling the office at 888-858-6673 or Email us at support@remindercall.com.
+Please contact Reminder Services, Inc to get a link to our full API documentation and to get more information by calling the office at 888-858-6673 or Email us at support@remindercall.com.
 
 Happy Testing!
 
