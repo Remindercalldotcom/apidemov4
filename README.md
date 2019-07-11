@@ -24,11 +24,15 @@ Request sample code and more information by calling the office at 888-858-6673 o
 Happy Testing!
 
 Explanation of files:
-Call.php - example of how to send a voice call
-Email.php - example of how to send an email
-GetKey.php - example of how to retrieve your API key with your remindercall.com user/pwd via the API
-GetStatus.php - example of how to retrieve the status of a call or a text message
-Textv4.php - example of how to send a text using version 4.0 of the API
-apidemov4.php - the central page that brings all of these functions together
-numbermanagement.php - Example of how you would list, purchase and release DID numbers
-webhook.php - example of how you would set up the receiving side of a webhook on your website so status information would be updated instantly without needing to request the status of calls and text messages.  Note: you would have a separate instance of this for voice and SMS and you need to speak with support to enable the webhook within your user account.
+  * Call.php - example of how to send a voice call
+  * Email.php - example of how to send an email
+  * GetKey.php - example of how to retrieve your API key with your remindercall.com user/pwd via the API
+  * GetStatus.php - example of how to retrieve the status of a call or a text message
+  * Textv4.php - example of how to send a text using version 4.0 of the API
+  * apidemov4.php - the central page that brings all of these functions together
+  * numbermanagement.php - the central page on how you would list, purchase and release DID numbers
+  * numberlist.php - example of listing your current numbers in your pool for a given user account
+  * numbersearch.php - example of how to search for an available number in a given area code
+  * numberpurchase.php - example of how to purchase a number that is avaialble
+  * numberrelease.php - example of how to release a number from your pool
+  * webhook.php - example of how you would set up the receiving side of a webhook on your website so status information would be updated instantly without needing to request the status of calls and text messages.  Note: you would have a separate instance of this for voice and SMS and you need to speak with support to enable the webhook within your user account.
