@@ -22,3 +22,13 @@ More information along with the Request and Response details are here: https://s
 Request sample code and more information by calling the office at 888-858-6673 or Email us at support@remindercall.com.
 
 Happy Testing!
+
+Explanation of files:
+Call.php - example of how to send a voice call
+Email.php - example of how to send an email
+GetKey.php - example of how to retrieve your API key with your remindercall.com user/pwd via the API
+GetStatus.php - example of how to retrieve the status of a call or a text message
+Textv4.php - example of how to send a text using version 4.0 of the API
+apidemov4.php - the central page that brings all of these functions together
+numbermanagement.php - Example of how you would list, purchase and release DID numbers
+webhook.php - example of how you would set up the receiving side of a webhook on your website so status information would be updated instantly without needing to request the status of calls and text messages.  Note: you would have a separate instance of this for voice and SMS and you need to speak with support to enable the webhook within your user account.
