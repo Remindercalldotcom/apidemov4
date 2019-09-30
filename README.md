@@ -1,23 +1,22 @@
 # API Demo version 4.0
-This is an updated version of the API Demo that uses our XML API to send reminders and get the status back for SMS and calls. Using the API is fairly easy. You can use the Webhook as a means of instant updates as an alternative to requesting message statuses one at a time.
+This is an updated version of the API Demo. It uses our XML API to send reminder calls, text messages, and emails. It then retrieves statuses for texts and calls. Using the API is easy. You can use the Webhook for instant updates as an alternative to requesting message statuses one at a time.
 
 The demo page lets you:
   1. Retrieve your key using your Remindercall.com username/password.
   2. Send texts.
   3. Send voice calls.
   4. Send Emails.
-  5. Get the status of a texts or calls.
+  5. Get the statuses of texts and calls.
   6. Manage your purchased DID numbers.
 
 The sample page of this is here: http://www.snapnotify.net/example/apidemov4.php
 
-This example also demonstrates Number Management, which is used to manage your purchased phone numbers used to send text messages.  You can have any amount of purchased numbers which are used in the "number from" field of the text section.   Although you can only use one number at a time, you may choose to have a pool of numbers so you can deploy SMS more rapidly if you have a large volume to deliver, or you can spread the numbers out geographically so the SMS will originate in an area code near the recipients area code.  If you don't assign a "from number" and you have a pool of numbers, the API will pick a number at random from your pool.
+This API can also be used for Phone Number Management. Following is a working exampmle of a Phone Number Management web page that lets you search for avialable phone numbers, purchase phone numbers, release purchased numbers, and list purchased numbers. You can use an unlimited amount of in the "number from" field of the text section. Although you can only use one number at a time, you may choose to have a pool of numbers so you can deploy high-volume reminders rapidly. Another way to increase speed is to select the numbers geographically so the SMS can originate in an area code near the recipient's.  If you don't assign a "from number" and you have a pool of numbers, the API will pick a number at random from your pool.
 
-The Numbers Management page lets you search for phone numbers available by area code, purchase phone numbers, release a number you may have already purchased and list the phone numbers that you own.
 
 A working example page of this is here: http://www.snapnotify.net/example/numbermanagement.php
 
-Please contact Reminder Services, Inc to get a link to our full API documentation and to get more information by calling the office at 888-858-6673 or Email us at support@remindercall.com.
+Please contact Reminder Services, Inc to get a link to our full API documentation by calling the office at 888-858-6673 or emailing us at support@remindercall.com.
 
 Happy Testing!
 
